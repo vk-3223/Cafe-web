@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9fb37c62033b6bf9fcfa057a7d42a60d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9fb37c62033b6bf9fcfa057a7d42a60d" ></div>
+        
+</body>
+<script>    
+    
+            var map_9fb37c62033b6bf9fcfa057a7d42a60d = L.map(
+                "map_9fb37c62033b6bf9fcfa057a7d42a60d",
+                {
+                    center: [51.5072, 0.1276],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7df0b2c41e2b50c2fb969bd3ed45f1e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9fb37c62033b6bf9fcfa057a7d42a60d);
+        
+    
+            var feature_group_6c232c298af8d589b0deb33a5991e577 = L.featureGroup(
+                {}
+            ).addTo(map_9fb37c62033b6bf9fcfa057a7d42a60d);
+        
+    
+            var marker_7ee6e03b90d85eceae9a3af98711b274 = L.marker(
+                [51.50428957, -0.087409015],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_4e6a0006e2866a942549c3e1af3fe489 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ee6e03b90d85eceae9a3af98711b274.setIcon(icon_4e6a0006e2866a942549c3e1af3fe489);
+        
+    
+        var popup_bc810dbcde100e00bc1d4398d117a780 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf7e573e4c6e795acbbfee651e34f442 = $(`<div id="html_cf7e573e4c6e795acbbfee651e34f442" style="width: 100.0%; height: 100.0%;">cafe : Science Gallery London    cafe_link : https://g.page/scigallerylon?share    coffe_price : £2.40</div>`)[0];
+            popup_bc810dbcde100e00bc1d4398d117a780.setContent(html_cf7e573e4c6e795acbbfee651e34f442);
+        
+
+        marker_7ee6e03b90d85eceae9a3af98711b274.bindPopup(popup_bc810dbcde100e00bc1d4398d117a780)
+        ;
+
+        
+    
+    
+            var marker_cecc788cb23cca2b449388c0f3d4702d = L.marker(
+                [51.4699596, -0.066674917],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_5ad803048a5cf1fa63412fdd40019edb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cecc788cb23cca2b449388c0f3d4702d.setIcon(icon_5ad803048a5cf1fa63412fdd40019edb);
+        
+    
+        var popup_9acd971537421d59db9b76a3f08ce767 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b4c0e28171d2a098c7a1c16c27ec346 = $(`<div id="html_2b4c0e28171d2a098c7a1c16c27ec346" style="width: 100.0%; height: 100.0%;">cafe : Social - Copeland Road    cafe_link : https://g.page/CopelandSocial?share    coffe_price : £2.75</div>`)[0];
+            popup_9acd971537421d59db9b76a3f08ce767.setContent(html_2b4c0e28171d2a098c7a1c16c27ec346);
+        
+
+        marker_cecc788cb23cca2b449388c0f3d4702d.bindPopup(popup_9acd971537421d59db9b76a3f08ce767)
+        ;
+
+        
+    
+    
+            var marker_4387b776b2ea8442ba122103642031b9 = L.marker(
+                [51.46589782, -0.066575046],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_0ea8e1db3b7ecba112a584459bcfe173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4387b776b2ea8442ba122103642031b9.setIcon(icon_0ea8e1db3b7ecba112a584459bcfe173);
+        
+    
+        var popup_2c588362b08038182521a01b50ad579e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884077d16e6b44bab98648da0f6b1449 = $(`<div id="html_884077d16e6b44bab98648da0f6b1449" style="width: 100.0%; height: 100.0%;">cafe : One & All Cafe Peckham    cafe_link : https://g.page/one-all-cafe?share    coffe_price : £2.75</div>`)[0];
+            popup_2c588362b08038182521a01b50ad579e.setContent(html_884077d16e6b44bab98648da0f6b1449);
+        
+
+        marker_4387b776b2ea8442ba122103642031b9.bindPopup(popup_2c588362b08038182521a01b50ad579e)
+        ;
+
+        
+    
+    
+            var marker_d5b90580d1166f219acf2f68e53a32a6 = L.marker(
+                [51.46528888, -0.0666088],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_07293da443009c1d13464d756488866d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5b90580d1166f219acf2f68e53a32a6.setIcon(icon_07293da443009c1d13464d756488866d);
+        
+    
+        var popup_181f4493d8d78603cbb388ff05a7a072 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d706a0339e941cd93a7af9f4ed65992 = $(`<div id="html_3d706a0339e941cd93a7af9f4ed65992" style="width: 100.0%; height: 100.0%;">cafe : Old Spike    cafe_link : https://www.google.com/maps/place/Old+Spike+Roastery/@51.4651552,-0.0666088,17z/data=!4m12!1m6!3m5!1s0x487603a3a7dd838d:0x4105b39b30a737cf!2sOld+Spike+Roastery!8m2!3d51.4651552!4d-0.0666088!3m4!1s0x487603a3a7dd838d:0x4105b39b30a737cf!8m2!3d51.4651552!4d-0.0666088    coffe_price : £2.80</div>`)[0];
+            popup_181f4493d8d78603cbb388ff05a7a072.setContent(html_3d706a0339e941cd93a7af9f4ed65992);
+        
+
+        marker_d5b90580d1166f219acf2f68e53a32a6.bindPopup(popup_181f4493d8d78603cbb388ff05a7a072)
+        ;
+
+        
+    
+    
+            var marker_c8c787c4a26558f1fe0bc8556dd6ce43 = L.marker(
+                [51.49932545, -0.081130917],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_0a236df8394f03aabef0e0daa69887b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8c787c4a26558f1fe0bc8556dd6ce43.setIcon(icon_0a236df8394f03aabef0e0daa69887b4);
+        
+    
+        var popup_ef49beabfa32a6fca3c71ed5f2d68606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf353dfe15974d71eac5ed27e6f409c7 = $(`<div id="html_cf353dfe15974d71eac5ed27e6f409c7" style="width: 100.0%; height: 100.0%;">cafe : Fuckoffee Bermondsey    cafe_link : https://goo.gl/maps/ugP2B1AV7FELHSgn6    coffe_price : £2.65</div>`)[0];
+            popup_ef49beabfa32a6fca3c71ed5f2d68606.setContent(html_cf353dfe15974d71eac5ed27e6f409c7);
+        
+
+        marker_c8c787c4a26558f1fe0bc8556dd6ce43.bindPopup(popup_ef49beabfa32a6fca3c71ed5f2d68606)
+        ;
+
+        
+    
+    
+            var marker_e20a83083fb3493893a7a8923fca8e79 = L.marker(
+                [51.53789077, -0.057222473],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_1bd6a6b4534addecfb95a4d2d07e18e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e20a83083fb3493893a7a8923fca8e79.setIcon(icon_1bd6a6b4534addecfb95a4d2d07e18e8);
+        
+    
+        var popup_1008f1e90e1b66ec2a13852a5e1c7d6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12c986b3a865c162ec30e41fbe565763 = $(`<div id="html_12c986b3a865c162ec30e41fbe565763" style="width: 100.0%; height: 100.0%;">cafe : Mare Street Market    cafe_link : https://goo.gl/maps/DWnwaeeiwdYsBkEH9    coffe_price : £2.80</div>`)[0];
+            popup_1008f1e90e1b66ec2a13852a5e1c7d6c.setContent(html_12c986b3a865c162ec30e41fbe565763);
+        
+
+        marker_e20a83083fb3493893a7a8923fca8e79.bindPopup(popup_1008f1e90e1b66ec2a13852a5e1c7d6c)
+        ;
+
+        
+    
+    
+            var marker_e766982abf82a1b9627d76dbcda2ef0f = L.marker(
+                [51.52589943, -0.099606275],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_bad5fc73a1f1f02c49c648dd50084213 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e766982abf82a1b9627d76dbcda2ef0f.setIcon(icon_bad5fc73a1f1f02c49c648dd50084213);
+        
+    
+        var popup_68069464034d6f1d92dcd64218ef49a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d76d6d5f65817ab9ce2ac708c6f025b8 = $(`<div id="html_d76d6d5f65817ab9ce2ac708c6f025b8" style="width: 100.0%; height: 100.0%;">cafe : Goswell Road Coffee    cafe_link : https://goo.gl/maps/D9nXNYK3fa1cxwpK8    coffe_price : £2.10</div>`)[0];
+            popup_68069464034d6f1d92dcd64218ef49a5.setContent(html_d76d6d5f65817ab9ce2ac708c6f025b8);
+        
+
+        marker_e766982abf82a1b9627d76dbcda2ef0f.bindPopup(popup_68069464034d6f1d92dcd64218ef49a5)
+        ;
+
+        
+    
+    
+            var marker_d8e6b9e8285721323d283a718a577976 = L.marker(
+                [51.50655615, -0.089283387],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_cc610dd42b9c10f7e7f89b8bac6e04d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d8e6b9e8285721323d283a718a577976.setIcon(icon_cc610dd42b9c10f7e7f89b8bac6e04d4);
+        
+    
+        var popup_b96a980d1b3f35e72d0d52e9b7dcec06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cffad17bc3c90296b5d1019b4c8056f = $(`<div id="html_8cffad17bc3c90296b5d1019b4c8056f" style="width: 100.0%; height: 100.0%;">cafe : The Southwark Cathedral Cafe    cafe_link : https://goo.gl/maps/LU1imQzBCRLFBxKUA    coffe_price : £2.30</div>`)[0];
+            popup_b96a980d1b3f35e72d0d52e9b7dcec06.setContent(html_8cffad17bc3c90296b5d1019b4c8056f);
+        
+
+        marker_d8e6b9e8285721323d283a718a577976.bindPopup(popup_b96a980d1b3f35e72d0d52e9b7dcec06)
+        ;
+
+        
+    
+    
+            var marker_377c371763fd5369e94fbd8275b712fb = L.marker(
+                [51.51756108, -0.0737614],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_0370b05e78f73583105f64ad598cfe36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_377c371763fd5369e94fbd8275b712fb.setIcon(icon_0370b05e78f73583105f64ad598cfe36);
+        
+    
+        var popup_6f73d0fea91b9dfc3828d21f8405e8d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78dd5862e2e8835550786f5f18ea498c = $(`<div id="html_78dd5862e2e8835550786f5f18ea498c" style="width: 100.0%; height: 100.0%;">cafe : Trade Commercial Road    cafe_link : https://goo.gl/maps/v5tzRBVhPFueYp4x6    coffe_price : £2.70</div>`)[0];
+            popup_6f73d0fea91b9dfc3828d21f8405e8d5.setContent(html_78dd5862e2e8835550786f5f18ea498c);
+        
+
+        marker_377c371763fd5369e94fbd8275b712fb.bindPopup(popup_6f73d0fea91b9dfc3828d21f8405e8d5)
+        ;
+
+        
+    
+    
+            var marker_2d74e4436fa5cebb9f8525698cf4a686 = L.marker(
+                [51.50767541, -0.099388588],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_b58374b16a8db82ecb0955c495982fd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d74e4436fa5cebb9f8525698cf4a686.setIcon(icon_b58374b16a8db82ecb0955c495982fd3);
+        
+    
+        var popup_895f3114056ee16c40dc4b1de876752e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc029596bbf357451df1812163c63380 = $(`<div id="html_dc029596bbf357451df1812163c63380" style="width: 100.0%; height: 100.0%;">cafe : The Tate Modern Cafe    cafe_link : https://goo.gl/maps/6RvPHyhsDDUPs1ox8    coffe_price : £2.70</div>`)[0];
+            popup_895f3114056ee16c40dc4b1de876752e.setContent(html_dc029596bbf357451df1812163c63380);
+        
+
+        marker_2d74e4436fa5cebb9f8525698cf4a686.bindPopup(popup_895f3114056ee16c40dc4b1de876752e)
+        ;
+
+        
+    
+    
+            var marker_7d19c9c4976944f1397bda0504678e42 = L.marker(
+                [51.52460486, -0.100552673],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_373221020953ac7224c8b282e6b612b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d19c9c4976944f1397bda0504678e42.setIcon(icon_373221020953ac7224c8b282e6b612b9);
+        
+    
+        var popup_322467cb3a7c471b130a9af8ebda3b38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_524f77d261eaec9a722fd3b6d46c5795 = $(`<div id="html_524f77d261eaec9a722fd3b6d46c5795" style="width: 100.0%; height: 100.0%;">cafe : Forage Cafe    cafe_link : https://goo.gl/maps/HC4e9FJL48kLRH8W9    coffe_price : £2.50</div>`)[0];
+            popup_322467cb3a7c471b130a9af8ebda3b38.setContent(html_524f77d261eaec9a722fd3b6d46c5795);
+        
+
+        marker_7d19c9c4976944f1397bda0504678e42.bindPopup(popup_322467cb3a7c471b130a9af8ebda3b38)
+        ;
+
+        
+    
+    
+            var marker_46d9bbf1dee93b302e905fc72ad95455 = L.marker(
+                [51.52430546, -0.078749675],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_9b9d5a0f7432045e9a11bee5d5d34b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46d9bbf1dee93b302e905fc72ad95455.setIcon(icon_9b9d5a0f7432045e9a11bee5d5d34b77);
+        
+    
+        var popup_73f4a94a2e3775977d45b15c66c49a35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b451e9f5905c24603344e4fc0afdd0b = $(`<div id="html_9b451e9f5905c24603344e4fc0afdd0b" style="width: 100.0%; height: 100.0%;">cafe : Citizen M Hotel Shoreditch    cafe_link : https://g.page/citizenm-london-shoreditch?share    coffe_price : £2.80</div>`)[0];
+            popup_73f4a94a2e3775977d45b15c66c49a35.setContent(html_9b451e9f5905c24603344e4fc0afdd0b);
+        
+
+        marker_46d9bbf1dee93b302e905fc72ad95455.bindPopup(popup_73f4a94a2e3775977d45b15c66c49a35)
+        ;
+
+        
+    
+    
+            var marker_cb6414e00bf29cadd32df9821c7a61ef = L.marker(
+                [51.52027444, -0.093818588],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_2868ce59130c836e75b9463e793ccd8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb6414e00bf29cadd32df9821c7a61ef.setIcon(icon_2868ce59130c836e75b9463e793ccd8a);
+        
+    
+        var popup_7d8272b39b42d241db9f463d6f46492d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ade84f1c2e2f108e69042d5ba1505015 = $(`<div id="html_ade84f1c2e2f108e69042d5ba1505015" style="width: 100.0%; height: 100.0%;">cafe : Barbican Centre    cafe_link : https://goo.gl/maps/XPrcFj91LsQBvUa27    coffe_price : £3.00</div>`)[0];
+            popup_7d8272b39b42d241db9f463d6f46492d.setContent(html_ade84f1c2e2f108e69042d5ba1505015);
+        
+
+        marker_cb6414e00bf29cadd32df9821c7a61ef.bindPopup(popup_7d8272b39b42d241db9f463d6f46492d)
+        ;
+
+        
+    
+    
+            var marker_4796baaab4015671adda5e22088fbdeb = L.marker(
+                [51.52345291, -0.101226588],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_701c47279845b0f957f19200550855d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4796baaab4015671adda5e22088fbdeb.setIcon(icon_701c47279845b0f957f19200550855d6);
+        
+    
+        var popup_c9a5e3fb5d1478e91b55532bd7c32665 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1e6456770064e1d4222d5a29369eaff = $(`<div id="html_f1e6456770064e1d4222d5a29369eaff" style="width: 100.0%; height: 100.0%;">cafe : The Slaughtered Lamb    cafe_link : https://goo.gl/maps/mwAG272nQwSUc9bn8    coffe_price : £2.60</div>`)[0];
+            popup_c9a5e3fb5d1478e91b55532bd7c32665.setContent(html_f1e6456770064e1d4222d5a29369eaff);
+        
+
+        marker_4796baaab4015671adda5e22088fbdeb.bindPopup(popup_c9a5e3fb5d1478e91b55532bd7c32665)
+        ;
+
+        
+    
+    
+            var marker_c4e48c35702523b203d766dd30e3efe2 = L.marker(
+                [51.49504161, -0.17327806],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_9b17772baed9d545d5cc1e31502675cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4e48c35702523b203d766dd30e3efe2.setIcon(icon_9b17772baed9d545d5cc1e31502675cb);
+        
+    
+        var popup_272184a01b975e88fa306ed1e6909bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72bd9770e63f3ab64c8176e3c613c08c = $(`<div id="html_72bd9770e63f3ab64c8176e3c613c08c" style="width: 100.0%; height: 100.0%;">cafe : Fernandez and Wells Exhibition Road    cafe_link : https://goo.gl/maps/GPFSEuGEiDvQG8BH7    coffe_price : £1.80</div>`)[0];
+            popup_272184a01b975e88fa306ed1e6909bd1.setContent(html_72bd9770e63f3ab64c8176e3c613c08c);
+        
+
+        marker_c4e48c35702523b203d766dd30e3efe2.bindPopup(popup_272184a01b975e88fa306ed1e6909bd1)
+        ;
+
+        
+    
+    
+            var marker_694081bd5b151a34a749cd99357abafc = L.marker(
+                [51.51463194, -0.073027902],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_5c14e70780853405b944e07e513db7b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_694081bd5b151a34a749cd99357abafc.setIcon(icon_5c14e70780853405b944e07e513db7b6);
+        
+    
+        var popup_e012803f31a4229d982d49d6fee42c23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b91b9e8201c71752370e2977411c86a = $(`<div id="html_7b91b9e8201c71752370e2977411c86a" style="width: 100.0%; height: 100.0%;">cafe : Whitechapel Grind    cafe_link : https://goo.gl/maps/xv29seioiETAAZgN9    coffe_price : £2.60</div>`)[0];
+            popup_e012803f31a4229d982d49d6fee42c23.setContent(html_7b91b9e8201c71752370e2977411c86a);
+        
+
+        marker_694081bd5b151a34a749cd99357abafc.bindPopup(popup_e012803f31a4229d982d49d6fee42c23)
+        ;
+
+        
+    
+    
+            var marker_83c379f878ff0950489d4629ffac7ef5 = L.marker(
+                [51.4747186, -0.077084354],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_c9152a3dc4d09186504ae94440f6f88c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83c379f878ff0950489d4629ffac7ef5.setIcon(icon_c9152a3dc4d09186504ae94440f6f88c);
+        
+    
+        var popup_04083ce05d1e8582100f2bbf133d42c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c97c50ba409079bf2ad324d10e6c6038 = $(`<div id="html_c97c50ba409079bf2ad324d10e6c6038" style="width: 100.0%; height: 100.0%;">cafe : The Peckham Pelican    cafe_link : https://goo.gl/maps/qpcpX7MWhFSS1qxH9    coffe_price : £2.60</div>`)[0];
+            popup_04083ce05d1e8582100f2bbf133d42c5.setContent(html_c97c50ba409079bf2ad324d10e6c6038);
+        
+
+        marker_83c379f878ff0950489d4629ffac7ef5.bindPopup(popup_04083ce05d1e8582100f2bbf133d42c5)
+        ;
+
+        
+    
+    
+            var marker_d43ed130cf9efc50192e0bc584b01673 = L.marker(
+                [51.49684857, -0.176345744],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_3ff572db0c196c1a9d7cb9acc38bcb53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d43ed130cf9efc50192e0bc584b01673.setIcon(icon_3ff572db0c196c1a9d7cb9acc38bcb53);
+        
+    
+        var popup_bced03b79ece0b5a21bdf71889e6481a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59de113e523487a1256e1ca9b73ae904 = $(`<div id="html_59de113e523487a1256e1ca9b73ae904" style="width: 100.0%; height: 100.0%;">cafe : Natural History Museum Library    cafe_link : https://goo.gl/maps/VU2PwnDDtH1WqCnK7    coffe_price : £2.00</div>`)[0];
+            popup_bced03b79ece0b5a21bdf71889e6481a.setContent(html_59de113e523487a1256e1ca9b73ae904);
+        
+
+        marker_d43ed130cf9efc50192e0bc584b01673.bindPopup(popup_bced03b79ece0b5a21bdf71889e6481a)
+        ;
+
+        
+    
+    
+            var marker_6adca3e79efa4dfed575af5c26332ab7 = L.marker(
+                [51.52723015, -0.078839587],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_6ab6dc1df59f1ce068d7c1c734c8934d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6adca3e79efa4dfed575af5c26332ab7.setIcon(icon_6ab6dc1df59f1ce068d7c1c734c8934d);
+        
+    
+        var popup_435fcc659af8cd38452a83d703bee333 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_088c172d3ad5e08c5058ae3f90f62339 = $(`<div id="html_088c172d3ad5e08c5058ae3f90f62339" style="width: 100.0%; height: 100.0%;">cafe : The Bike Shed    cafe_link : https://goo.gl/maps/gYX271NxyuawiMcK8    coffe_price : £2.80</div>`)[0];
+            popup_435fcc659af8cd38452a83d703bee333.setContent(html_088c172d3ad5e08c5058ae3f90f62339);
+        
+
+        marker_6adca3e79efa4dfed575af5c26332ab7.bindPopup(popup_435fcc659af8cd38452a83d703bee333)
+        ;
+
+        
+    
+    
+            var marker_cd81e9e7346c5fd1f3ca8e956b52cd2c = L.marker(
+                [51.50158929, -0.093239615],
+                {}
+            ).addTo(feature_group_6c232c298af8d589b0deb33a5991e577);
+        
+    
+            var icon_690dda1fcceaed3b7a5b0f529b19eb27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd81e9e7346c5fd1f3ca8e956b52cd2c.setIcon(icon_690dda1fcceaed3b7a5b0f529b19eb27);
+        
+    
+        var popup_00acb6990ebbf14065ced9ff4b30d392 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24bb60562e4841b7033805c9988d9630 = $(`<div id="html_24bb60562e4841b7033805c9988d9630" style="width: 100.0%; height: 100.0%;">cafe : FORA Borough    cafe_link : https://g.page/fora---borough?share    coffe_price : £2.40</div>`)[0];
+            popup_00acb6990ebbf14065ced9ff4b30d392.setContent(html_24bb60562e4841b7033805c9988d9630);
+        
+
+        marker_cd81e9e7346c5fd1f3ca8e956b52cd2c.bindPopup(popup_00acb6990ebbf14065ced9ff4b30d392)
+        ;
+
+        
+    
+</script>
